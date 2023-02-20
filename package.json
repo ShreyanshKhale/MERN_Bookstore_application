@@ -1,0 +1,28 @@
+{
+  "name": "bookmybooks.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.0",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "mongoose": "^6.3.3",
+    "nodemon": "^2.0.16",
+    "passport": "^0.5.2",
+    "passport-local": "^1.0.0",
+    "path": "^0.12.7"
+  }
+}
