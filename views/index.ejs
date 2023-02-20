@@ -1,0 +1,36 @@
+<%- include('_header'); -%>
+<div>
+    <img src="./img/sample.jpg" class="rounded" alt="BOOKNAME">
+</div>
+<div class="jumbotron jumbotron-fluid">
+    <div class="row">
+      <%for(var i = 0; i < author.length; i++) {
+        <div class="col-sm-2">
+          <div class="card">
+            <div class="card-body">
+                <img src="/public/img/sample.jpg" class="rounded" alt="BOOKNAME">
+                <h5 class="card-title">Special title treatment</h5>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-2">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1>Bootstrap Tutorial</h1>
+      <p>Bootstrap is the most popular HTML, CSS...</p>
+    </div>
+  </div>
+
+<%- include ('_footer'); -%>
